@@ -1,8 +1,8 @@
 # Emporia — E-commerce Admin Dashboard for Angular
 
 [![Download free](https://img.shields.io/badge/Download-free-c2410c?style=for-the-badge)](https://buy.polar.sh/polar_cl_ei81VSYaO47yBUx0pQ7RzHWbb0JXVdNnQMs1e0DoamX)
-[![Live demo](https://img.shields.io/badge/Live-demo-0f172a?style=for-the-badge)](https://demo.rr-dev.eu/emporia/overview)
-[![Getting started](https://img.shields.io/badge/Getting-started-0f766e?style=for-the-badge)](https://demo.rr-dev.eu/docs/emporia/getting-started/)
+[![Live demo](https://img.shields.io/badge/Live-demo-0f172a?style=for-the-badge)](https://rrstudio.app/emporia/overview)
+[![Getting started](https://img.shields.io/badge/Getting-started-0f766e?style=for-the-badge)](https://rrstudio.app/docs/emporia/getting-started/)
 [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/rrstudioapps)
 
 A free, production-ready admin dashboard template for online stores by **rrstudio**: sales KPIs,
@@ -15,7 +15,7 @@ Built with the latest stable Angular and modern APIs only: **standalone componen
 
 ![Emporia demo: overview, orders, fulfilling an order with tracking, products and variants, inventory adjustment and VIP customers](docs/demo.gif)
 
-**[Try the live demo →](https://demo.rr-dev.eu/emporia/overview)** — no sign-up, runs entirely
+**[Try the live demo →](https://rrstudio.app/emporia/overview)** — no sign-up, runs entirely
 in your browser on generated data.
 
 > **About this repository:** this is the public home of Emporia — screenshots, release notes,
@@ -91,7 +91,7 @@ in your browser on generated data.
   sold, customer spend) and a refund with "Restock items" really puts the units back in stock.
 - **Swappable API layer**: realistic mock data or HttpClient with one switch. Every endpoint is
   described in an **OpenAPI 3.1** contract
-  ([getting started guide](https://demo.rr-dev.eu/docs/emporia/getting-started/)).
+  ([getting started guide](https://rrstudio.app/docs/emporia/getting-started/)).
 - Loading skeletons, empty and error states with Retry on every page — the demo lets you simulate a
   slow network and API errors from Settings → Appearance.
 - **Accessible**: semantic landmarks, ARIA on tabs, menus and dialogs, full keyboard support,
@@ -121,7 +121,7 @@ that cost disappears.
 1. **[Download Emporia for free on Polar](https://buy.polar.sh/polar_cl_ei81VSYaO47yBUx0pQ7RzHWbb0JXVdNnQMs1e0DoamX)** — enter $0 or any amount you like.
 2. Unzip, then `npm install` and `npm start`. The included README covers installation,
    connecting your own API, theming, adding pages and deployment.
-3. Follow the **[Getting started guide](https://demo.rr-dev.eu/docs/emporia/getting-started/)**:
+3. Follow the **[Getting started guide](https://rrstudio.app/docs/emporia/getting-started/)**:
    rebrand it, add a page, connect your backend, apply roles and deploy, step by step.
 
 New versions are announced in [Releases](../../releases). Downloading again from Polar always gives
