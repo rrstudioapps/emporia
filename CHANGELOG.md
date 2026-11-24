@@ -4,6 +4,17 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.0.2] — 2026-11-24
+
+### Changed
+
+- Contact address for questions and bug reports is now info@rrstudio.app (`SUPPORT_EMAIL` in `src/app/config/links.ts`).
+
+### Fixed
+
+- Demo data: in the three days before Black Friday the Discounts page had no scheduled code (and one unit test failed on those days). The Christmas campaign now looks 60 days ahead, so every status tab always has codes.
+- The end-to-end test that creates a scheduled discount used fixed dates that are now in the past: it now uses dates relative to today.
+
 ## [1.0.1] — 2026-11-23
 
 ### Changed
